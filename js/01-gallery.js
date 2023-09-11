@@ -19,6 +19,7 @@ const markup = galleryItems
  </li>`
   )
   .join("");
+console.log(markup);
 
 gallery.insertAdjacentHTML("beforeend", markup);
 
