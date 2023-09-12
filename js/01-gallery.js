@@ -38,9 +38,10 @@ function handleClickGallery(evt) {
       },
     }
   );
-
   instance.show();
+
   document.addEventListener("keydown", closeModal);
+
   function closeModal(evt) {
     if (evt.code === "Escape") {
       instance.close();
